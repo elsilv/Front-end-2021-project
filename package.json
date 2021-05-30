@@ -1,0 +1,18 @@
+{
+  "name": "front-end-2021-project",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Front-end-2021-project"
+  },
+  "author": "Elsi Silvennoinen",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.0"
+  }
+}
