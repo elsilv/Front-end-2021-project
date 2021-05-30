@@ -6,10 +6,6 @@
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
-  "repository": {
-    "type": "git",
-    "url": "Front-end-2021-project"
-  },
   "author": "Elsi Silvennoinen",
   "license": "ISC",
   "dependencies": {
