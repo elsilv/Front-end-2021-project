@@ -8,7 +8,7 @@
 body {
     @include background;
     background: $primary-color;
-    color: #fff;
+    color: #EDF6F9;
     height: 100%;
     margin: 0%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -26,12 +26,12 @@ h1, h2, h3 {
     &.sm-heading {
         margin-bottom: 2rem;
         padding: 0.2rem 1rem;
-        background: rgba(lighten($primary-color, 0.2), 0.5);
+        background: rgba(lighten($primary-color, 0.2), 0.2);
     }
 }
 
 a {
-    color: #fff;
+    color: #EDF6F9;
     text-decoration: none;
 }
 
@@ -69,3 +69,4 @@ main {
         }
     }
 }
+
