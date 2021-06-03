@@ -10,7 +10,7 @@
         width: 28px;
         height: 2px;
         margin: 0 0 5px 0;
-        background: #EDF6F9;
+        background: $text-color;
         @include easeOut;
     }
 
@@ -78,9 +78,9 @@
         .portrait {
             width: 250px;
             height: 250px;
-            background: url('../img/portrait.jpg');
+            background: linear-gradient($secondary-color, $primary-color), no-repeat top center;
             border-radius: 50%;
-            border: solid 3px $secondary-color;
+            border: solid 3px #283d3b;
         }
     }
 
@@ -102,7 +102,7 @@
         position: relative;
         font-size: 20px;
         padding: 15px 0;
-        color: #EDF6F9;
+        color: $text-color;
         text-decoration: none;
         @include easeOut;
 

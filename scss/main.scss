@@ -8,7 +8,7 @@
 body {
     @include background;
     background: $primary-color;
-    color: #EDF6F9;
+    color: $text-color;
     height: 100%;
     margin: 0%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -31,7 +31,7 @@ h1, h2, h3 {
 }
 
 a {
-    color: #EDF6F9;
+    color: $text-color;
     text-decoration: none;
 }
 
@@ -69,4 +69,6 @@ main {
         }
     }
 }
+
+@import '_mobile';
 
