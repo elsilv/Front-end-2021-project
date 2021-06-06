@@ -11,11 +11,14 @@ body {
     color: $text-color;
     height: 100%;
     margin: 0%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
 }
 
+
 h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
     margin: 0;
     font-weight: 400;
 
@@ -39,6 +42,11 @@ header {
     position: fixed;
     z-index: 2;
     width: 100%;
+}
+
+.secondary-heading {
+    color: $secondary-color;
+    font-weight: 600;
 }
 
 .text-secondary {
