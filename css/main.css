@@ -233,6 +233,14 @@ main {
   color: set-text-color(#283d3b);
   height: 40px; }
 
+@media screen and (min-width: 1171px) {
+  .flex-container {
+    grid-template-columns: repeat(4, 1fr); } }
+
+@media screen and (min-width: 769px) and (max-width: 1170px) {
+  .flex-container {
+    grid-template-columns: repeat(3, 1fr); } }
+
 @media screen and (max-width: 768px) {
   main {
     align-items: center;
