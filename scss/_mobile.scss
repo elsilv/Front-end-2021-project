@@ -1,9 +1,7 @@
 @include mediaXl {
- 
-}
-
-@include mediaLg {
-    
+    .projects-info > div {
+        flex: 600px;
+    }
 }
 
 @include mediaMd {
